@@ -49,6 +49,11 @@ public class Oop2_graph {
         //System.out.println(rect1.toString());
         
         System.out.println(Math.PI);
+        Circle circ1= new Circle();
+        circ1.center = new Point(50,20);
+        circ1.radius = 8;
+        circ1.getS();
+        System.out.println(circ1.getS());
     }
     
 }

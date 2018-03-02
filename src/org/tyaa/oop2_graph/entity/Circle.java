@@ -14,6 +14,6 @@ public class Circle {
     public int radius;
     
     public double getS(){
-        return (Math.PI*radius);
+        return (Math.PI*radius*radius);
     }
 }
